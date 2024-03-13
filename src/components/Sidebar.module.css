@@ -1,0 +1,76 @@
+.sidebar {
+    height: 29.4rem;
+    background: var(--gray-800);
+    border-radius: 8px;
+    overflow: hidden; /*para ocupar a largura do container e nao vazar para fora*/
+}
+
+.cover {
+    width: 100%;
+    height: 72px;
+    object-fit: cover;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: -3.5rem;
+}
+
+.profile strong {
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: var(--gray-100);
+
+    margin-top: 1.6rem;
+}
+
+.profile span {
+    font-weight: Regular;
+    font-size: 1.4rem;
+    color: var(--gray-400);
+}
+
+.sidebar footer {
+    border-top: 1px solid var(--gray-600);
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    padding: 2.4rem 3.2rem 3.2rem;
+}
+
+.sidebar footer a {
+    background: transparent;
+    text-decoration: none;
+
+    color: var(--green-500);
+    font-weight: bold;
+
+    display: block;
+    
+    border: 1px solid var(--green-500);
+    border-radius: 8px;
+    padding: 1.6rem 2.4rem 1.4rem;
+    height: 5.0rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+
+    transition: 
+    color 0.1s,
+    background-color 0.1s;
+    ;
+    
+}
+
+.sidebar footer a:hover {
+    background: var(--green-500);
+    color: var(--white);
+}
+
+
+
